@@ -1,0 +1,193 @@
+{
+  "period": "2015/2024 DID change; population and worker change 2021-2024; living population and migration 2024",
+  "districts": {
+    "남구": {
+      "population_2021": 262069,
+      "population_2024": 254498,
+      "population_growth": -0.9724029697339653,
+      "workers_2021": 93744,
+      "workers_2024": 92952,
+      "worker_growth": -0.2824148542228233,
+      "living_population_2024": 253277.93402777775,
+      "living_ratio": 99.52059899401085,
+      "active_months": 12,
+      "persistence": 98.40712288439721,
+      "connectivity": 40.37109222733297,
+      "external_moves": 25892,
+      "total_moves": 64135,
+      "monthly_living_population": {
+        "202401": 252614.41666666666,
+        "202402": 258121,
+        "202403": 258327.54166666666,
+        "202404": 257633.875,
+        "202405": 257930.91666666666,
+        "202406": 252130.66666666666,
+        "202407": 249553.375,
+        "202408": 248534.29166666666,
+        "202409": 252657.04166666666,
+        "202410": 250722.375,
+        "202411": 249642.91666666666,
+        "202412": 251466.79166666666
+      },
+      "scores": {
+        "population_growth": 89.7,
+        "worker_growth": 56.2,
+        "living_ratio": 27.9,
+        "persistence": 77.8,
+        "connectivity": 39.7
+      }
+    },
+    "북구": {
+      "population_2021": 283211,
+      "population_2024": 267692,
+      "population_growth": -1.8609706329423603,
+      "workers_2021": 66682,
+      "workers_2024": 64810,
+      "worker_growth": -0.9446808874954304,
+      "living_population_2024": 259434.86458333334,
+      "living_ratio": 96.91543437358358,
+      "active_months": 12,
+      "persistence": 98.41066267422802,
+      "connectivity": 36.54210302585307,
+      "external_moves": 18912,
+      "total_moves": 51754,
+      "monthly_living_population": {
+        "202401": 264385.7083333333,
+        "202402": 267805.4583333333,
+        "202403": 262226.8333333333,
+        "202404": 261310.20833333334,
+        "202405": 260844.66666666666,
+        "202406": 257125.54166666666,
+        "202407": 257433.04166666666,
+        "202408": 256076.66666666666,
+        "202409": 259020.08333333334,
+        "202410": 255357.20833333334,
+        "202411": 254500.83333333334,
+        "202412": 257132.125
+      },
+      "scores": {
+        "population_growth": 20.5,
+        "worker_growth": 17,
+        "living_ratio": 0,
+        "persistence": 78.2,
+        "connectivity": 0
+      }
+    },
+    "사상구": {
+      "population_2021": 208298,
+      "population_2024": 198635,
+      "population_growth": -1.5708899975583113,
+      "workers_2021": 124257,
+      "workers_2024": 119723,
+      "worker_growth": -1.2313974892636526,
+      "living_population_2024": 205808.97916666666,
+      "living_ratio": 103.61163901964238,
+      "active_months": 12,
+      "persistence": 97.61839229763116,
+      "connectivity": 46.18699742471225,
+      "external_moves": 17576,
+      "total_moves": 38054,
+      "monthly_living_population": {
+        "202401": 211730.45833333334,
+        "202402": 214330.875,
+        "202403": 211365.45833333334,
+        "202404": 211796.625,
+        "202405": 207286.20833333334,
+        "202406": 202783.70833333334,
+        "202407": 202531.125,
+        "202408": 199868.33333333334,
+        "202409": 202130,
+        "202410": 203031.04166666666,
+        "202411": 201589.08333333334,
+        "202412": 201264.83333333334
+      },
+      "scores": {
+        "population_growth": 43.1,
+        "worker_growth": 0,
+        "living_ratio": 71.7,
+        "persistence": 0,
+        "connectivity": 100
+      }
+    },
+    "영도구": {
+      "population_2021": 110638,
+      "population_2024": 103737,
+      "population_growth": -2.1239450800007775,
+      "workers_2021": 46978,
+      "workers_2024": 47627,
+      "worker_growth": 0.45839477242044513,
+      "living_population_2024": 110230.23611111111,
+      "living_ratio": 106.25932513096687,
+      "active_months": 12,
+      "persistence": 97.74317063892909,
+      "connectivity": 37.57141373221149,
+      "external_moves": 7234,
+      "total_moves": 19254,
+      "monthly_living_population": {
+        "202401": 112340.29166666667,
+        "202402": 113774.95833333333,
+        "202403": 112319.625,
+        "202404": 112080.20833333333,
+        "202405": 112376.66666666667,
+        "202406": 109612.625,
+        "202407": 108676.16666666667,
+        "202408": 108784.83333333333,
+        "202409": 109569.875,
+        "202410": 107883.33333333333,
+        "202411": 107287.91666666667,
+        "202412": 108056.33333333333
+      },
+      "scores": {
+        "population_growth": 0,
+        "worker_growth": 100,
+        "living_ratio": 100,
+        "persistence": 12.3,
+        "connectivity": 10.7
+      }
+    }
+  },
+  "busan": {
+    "population_2021": 3350380,
+    "population_2024": 3266598,
+    "population_growth": -0.8406035321038452,
+    "workers_2021": 1544504,
+    "workers_2024": 1563954,
+    "worker_growth": 0.4180181593050225,
+    "living_population_2024": 3401469.8888888885,
+    "living_ratio": 104.12881808195831,
+    "active_months": 12,
+    "persistence": 98.63189129771317,
+    "connectivity": 43.8658054539723,
+    "external_moves": 338140,
+    "total_moves": 770851,
+    "monthly_living_population": {
+      "202401": 3460285.2083333335,
+      "202402": 3495243.2083333335,
+      "202403": 3445663.875,
+      "202404": 3442217.375,
+      "202405": 3434912.0416666665,
+      "202406": 3358102.125,
+      "202407": 3371155.875,
+      "202408": 3364226.25,
+      "202409": 3365936.6666666665,
+      "202410": 3353069.625,
+      "202411": 3353630.5,
+      "202412": 3373195.9166666665
+    },
+    "scores": {
+      "population_growth": 100,
+      "worker_growth": 97.6,
+      "living_ratio": 77.2,
+      "persistence": 100,
+      "connectivity": 75.9
+    }
+  },
+  "score_method": "Min-max standardized to 0-100 across four displayed districts and Busan overall; equal raw values receive 50.",
+  "definitions": {
+    "population_growth": "2021 and 2024 December registered population, annualized over three years.",
+    "worker_growth": "2021 and 2024 total-industry workers, annualized over three years.",
+    "living_ratio": "Average 2024 monthly 24-hour mean of residential+workplace+visitor population divided by 2024 December registered population.",
+    "persistence": "Mean of the three lowest monthly living population averages divided by the 12-month average, multiplied by 100.",
+    "connectivity": "Inter-gu inflow and outflow divided by all inflow and outflow in 2024 resident migration data; this is a residential-move proxy, not daily living-movement OD."
+  }
+}
