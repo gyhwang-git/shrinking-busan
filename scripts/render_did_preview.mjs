@@ -137,4 +137,5 @@ html=html.replace('.did-section-heading p{margin:4px 0 0;color:#697d74;font-size
 const didIntroCompactStyles='.did-intro{padding-top:0}.did-intro ul{font-size:17.5px}@media(max-width:760px){.did-intro ul{font-size:16px}}\n';
 if(!html.includes('.did-intro ul{font-size:17.5px}'))html=html.replace('</style>',didIntroCompactStyles+'</style>');
 fs.writeFileSync(pageFile,html,'utf8');
+await import('./add_population_scatter.mjs');
 console.log(`Inserted DID panels: 2015 ${did2015.features.length}, 2024 ${did2024.features.length}; transitions retained ${summary.retained_cells}, dropped ${summary.dropped_cells}, new ${summary.new_cells}.`);
