@@ -74,7 +74,8 @@ if (html.includes(designStart)) {
 }
 
 const mapHeading = /<div class="did-section-heading"><div><h2>[\s\S]*?<\/h2><p>[\s\S]*?<\/p><\/div><small id="did-change-count"><\/small><\/div>/;
-html = html.replace(mapHeading, '<div class="did-section-heading"><div class="did-section-titleline"><span class="coursework-step">03</span><div><h2>3. 인구밀집구역(DID)의 공간 분포와 변화</h2><p>2015–2024년 500m 격자에서 유지·탈락·신규 분포를 비교합니다.</p></div></div><small id="did-change-count"></small></div>');
+html = html.replace(mapHeading, '<div class="did-section-heading"><div class="did-section-titleline"><span class="coursework-step">03</span><div><h2>인구밀집구역(DID)의 공간 분포와 변화</h2><p>2015–2024년 500m 격자에서 유지·탈락·신규 분포를 비교합니다.</p></div></div><small id="did-change-count"></small></div>');
+html = html.replace('<h2>3. 인구밀집구역(DID)의 공간 분포와 변화</h2>', '<h2>인구밀집구역(DID)의 공간 분포와 변화</h2>');
 
 const shrinkStart = '<!-- SHRINKAGE_DIAGNOSIS_START -->';
 const shrinkEnd = '<!-- SHRINKAGE_DIAGNOSIS_END -->';
